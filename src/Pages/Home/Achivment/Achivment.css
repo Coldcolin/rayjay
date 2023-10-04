@@ -1,0 +1,65 @@
+.Achivment {
+    height: 120vh;
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: 40px;
+}
+
+.Achivment-background {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../../assets/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.Achivment-backgroundposition {
+    height: 80%;
+    width: 70%;
+    background-color: #102e46;
+    position: relative;
+    left: 20em;
+    top: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Achivment-title{
+    height: 30%;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    align-items: end;
+     display: flex;
+    font-size:28px;
+    padding-left: 10%;
+}
+
+.Achivment-text{
+    height: 25%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.Achivment-list{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(11, 21, 13);
+    color: #fff;
+
+}
+
+.Achivment-wins{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(40, 42, 40);
+}

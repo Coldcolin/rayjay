@@ -5,7 +5,7 @@ import {
 import './App.css'
 import PageLayout from "./Components/PageLayout";
 import About from "./Pages/About";
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/Home";
 import Contact from "./Pages/Contact";
 
 
