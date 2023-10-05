@@ -3,9 +3,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './App.css'
-import PageLayout from "./Components/PageLayout";
+import PageLayout from "./Components/PageLayout
 // import About from "./Pages/About";
-import Home from "./Pages/Home";
+=======
+import About from "./Pages/About";
+import Home from "./Pages/Home/Home";
+>>>>>>
 import Contact from "./Pages/Contact";
 import About from "./Pages/About/About";
 
