@@ -2,6 +2,8 @@
  import "./Home.css";
 import Service from "./Service/Service";
 import { Achivment } from "./Achivment/Achivment";
+import { Portfoilo } from "./Portfoilo/Portfoilo";
+import { Blog } from "../Blog/Blog";
 
  const Home = () => {
    const images = [
@@ -77,6 +79,8 @@ import { Achivment } from "./Achivment/Achivment";
       </div>
       <Service/>
       <Achivment/>
+      <Portfoilo/>
+      <Blog/>
     </div>
    );
  };
