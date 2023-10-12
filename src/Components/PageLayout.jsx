@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
 import Header from "./Header"
-import Footer from "./Footer"
+import Footer from "./Footer/Footer"
 import TopHeader from "./TopHeader"
 import "./Layout.css"
 
@@ -15,7 +15,7 @@ const PageLayout = () => {
           <Outlet/>
         </section>
         <footer>
-            <Footer/>
+           <Footer/>
         </footer>
     </>
   )
