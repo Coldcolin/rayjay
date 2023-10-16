@@ -3,7 +3,7 @@
 import Service from "./Service/Service";
 import { Achivment } from "./Achivment/Achivment";
 import { Portfoilo } from "./Portfoilo/Portfoilo";
-import { Blog } from "../Blog/Blog";
+import { Blog } from "./Blog/Blog";
 
  const Home = () => {
    const images = [
@@ -52,7 +52,7 @@ import { Blog } from "../Blog/Blog";
               <h4>Our Quality is Our</h4>
             </span>
             <span className="Streight">
-              <h1>Stranght, Energy, Faith</h1>
+              <h1>Strenght, Energy, Faith</h1>
             </span>
             <span className="standpoint">
               <p>
