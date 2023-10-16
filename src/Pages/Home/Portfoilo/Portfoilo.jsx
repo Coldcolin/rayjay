@@ -1,6 +1,5 @@
-import React from 'react'
 import "./Portfoilo.css"
-import {RiCrossFill} from "react-icons/ri"
+// import {RiCrossFill} from "react-icons/ri"
 import Worker from "../../../assets/Worker.jpg"
 import testi1 from "../../../assets/testi1.png"
 import videobg from "../../../assets/videobg.jpg"
@@ -28,7 +27,7 @@ export const Portfoilo = () => {
                     </div>
                      <div className='portfoilo-images'>
                         <img src={Worker} alt="" />
-                        <div className='portfoilo-imageshover'><RiCrossFill size={17} color='90'/></div>
+                        {/* <div className='portfoilo-imageshover'><RiCrossFill size={17} color='90'/></div> */}
                     </div>                   
                 </div>
                 <div className='Portfoilo-mainContainerright'></div>

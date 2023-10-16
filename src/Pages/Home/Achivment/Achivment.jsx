@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Achivment.css"
-import { ImCheckmark } from "react-icons/im";
-import { BiLogoFacebook, BiLogoTwitter, BiLogoInstagram } from "react-icons/bi";
+// import { ImCheckmark } from "react-icons/im";
+// import { BiLogoFacebook, BiLogoTwitter, BiLogoInstagram } from "react-icons/bi";
 import Shape1 from "../../../assets/Shape1.png"
 import Worker from "../../../assets/Worker.jpg"
 import Worker2 from "../../../assets/Worker2.jpg"
@@ -23,12 +23,12 @@ export const Achivment = () => {
                 </div>
                 <div className='Achivment-list'>
                     <div className='mark'>
-                        <ImCheckmark size={20} color='yellow' /> <p> many variations of passages majority suffered Duskam alteration of Lorem</p>
+                        {/* <ImCheckmark size={20} color='yellow' /> <p> many variations of passages majority suffered Duskam alteration of Lorem</p> */}
                     </div>
                     <div className='mark'>
-                        <ImCheckmark size={20} color='yellow' /> <p> many variations of passages majority suffered Duskam alteration of Lorem</p>
+                        {/* <ImCheckmark size={20} color='yellow' /> <p> many variations of passages majority suffered Duskam alteration of Lorem</p> */}
                     </div><div className='mark'>
-                        <ImCheckmark size={20} color='yellow' /> <p> many variations of passages majority suffered Duskam alteration of Lorem</p>
+                        {/* <ImCheckmark size={20} color='yellow' /> <p> many variations of passages majority suffered Duskam alteration of Lorem</p> */}
                     </div>
 
                 </div>
@@ -66,11 +66,11 @@ export const Achivment = () => {
                         <div className='worker-image'>
                             <img src={Worker} alt="worker" />
                             <div className='worker-imagehover'>
-                                <main className='social-boxes'><BiLogoFacebook size={30} color='white' /></main>
+                                {/* <main className='social-boxes'><BiLogoFacebook size={30} color='white' /></main>
                                 <main className='social-boxes'><BiLogoTwitter size={27} color='white' /></main>
                                 <main className='social-boxes'>
                                     <main className='social-boxes'><BiLogoInstagram size={27} color='white' /></main>
-                                </main>
+                                </main> */}
                             </div>
                         </div>
                         <div className='worker-text'>
@@ -83,11 +83,11 @@ export const Achivment = () => {
                         <div className='worker-image'>
                             <img src={Worker2} alt="worker" />
                             <div className='worker-imagehover'>
-                                <main className='social-boxes'><BiLogoFacebook size={30} color='white' /></main>
+                                {/* <main className='social-boxes'><BiLogoFacebook size={30} color='white' /></main>
                                 <main className='social-boxes'><BiLogoTwitter size={27} color='white' /></main>
                                 <main className='social-boxes'>
                                     <main className='social-boxes'><BiLogoInstagram size={27} color='white' /></main>
-                                </main>
+                                </main> */}
                             </div>
                         </div>
                         <div className='worker-text'>
@@ -100,11 +100,11 @@ export const Achivment = () => {
                         <div className='worker-image'>
                             <img src={Worker3} alt="worker" />
                             <div className='worker-imagehover'>
-                                <main className='social-boxes'><BiLogoFacebook size={30} color='white' /></main>
+                                {/* <main className='social-boxes'><BiLogoFacebook size={30} color='white' /></main>
                                 <main className='social-boxes'><BiLogoTwitter size={27} color='white' /></main>
                                 <main className='social-boxes'>
                                     <main className='social-boxes'><BiLogoInstagram size={27} color='white' /></main>
-                                </main>
+                                </main> */}
                             </div>
                         </div>
                         <div className='worker-text'>
