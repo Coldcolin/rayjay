@@ -17,39 +17,41 @@ const Contact = () => {
             <p>12/30 North cfghjklkjhgfdfghjkjhgf</p>
           </span>
           <span>
-            <h1>Address:</h1>
+            <h1>Phone:</h1>
             <p>12/30 North cfghjklkjhgfdfghjkjhgf</p>
           </span><span>
-            <h1>Address:</h1>
+            <h1>Email:</h1>
             <p>12/30 North cfghjklkjhgfdfghjkjhgf</p>
           </span>
         </div>
       </div>
       <main className="fromlocation">
-          <div  className="fromlocation-wrapper">
-                  <main className="from">
-                    <div className="from-title">
-                    <h1>Contact Form</h1>
-                    <hr className="from-line"/>
-                    </div>
-                    <div className="contactform">
-                    <input type="text" placeholder="Name"/>
-                    <input type="text" placeholder="Email"/>
-                    <input type="text" placeholder="Phone"/>
-                    <input type="text" placeholder="Subject"/>
-                    </div>
-                    <main className="contact-message">
-                       <input type="text" placeholder="Message"/>
-                    </main>
-                  </main>
-                  <main className="location">
+        <div className="fromlocation-wrapper">
+          <main className="from">
+            <div className="from-title">
+              <h1>Contact Form</h1>
+              <hr className="from-line" />
+            </div>
+            <div className="contactform">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Phone" />
+              <input type="text" placeholder="Subject" />
+            </div>
+            <main className="contact-message">
+              <input type="text" placeholder="Message" />
+            </main>
+            <div className="formSendbtn">
+            <button className="tbbn"> Send Now</button>
+            </div>
+          </main>
+          <main className="location">
 
-                  </main>
-          </div>
+          </main>
+        </div>
       </main>
-      <div className="contactpost">
-      <button className="tbbn"> Send Now</button>
-      </div>
+      {/* <div className="contactpost">
+      </div> */}
     </div>
   )
 }
