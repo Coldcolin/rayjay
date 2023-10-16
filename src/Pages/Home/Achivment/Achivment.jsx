@@ -8,6 +8,10 @@ import Worker2 from "../../../assets/Worker2.jpg"
 import Worker3 from "../../../assets/Worker3.jpg"
 
 export const Achivment = () => {
+
+
+
+    
     return (
         <section className='Achivment'>
             <main className='Achivment-background'></main>
