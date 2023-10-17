@@ -377,3 +377,13 @@ height: max-content;
     }
 
 }
+.H{
+    font-size: 38px;
+    color: #fff;
+}
+@media screen and (max-width: 425px){
+    .H{
+    font-size: 28px;
+    margin-top: 25px;
+    }
+}
