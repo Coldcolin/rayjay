@@ -14,7 +14,7 @@
 }
 
 .Hero-Part {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -75,7 +75,6 @@
 
 .Caroselleftblock:hover {
     background-color: #f4ba48;
-
 }
 
 .Quanlity {
@@ -91,11 +90,11 @@
 .Streight {
     display: block;
     height: 10%;
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .standpoint {
@@ -179,10 +178,12 @@
     font-weight: bold;
     letter-spacing: 2px;
     line-height: 1.2;
-    font-size: 38px;
+    font-size: 28px;
    align-items: end;
     height: 20%;
     text-align: center;
+    width: 100%;
+
     }
 
     .standpoint {

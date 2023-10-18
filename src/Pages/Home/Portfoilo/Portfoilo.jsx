@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './Portfoilo.css';
-import Worker from "../../../assets/Worker.jpg"
-import testi1 from "../../../assets/testi1.png"
 import videobg from "../../../assets/videobg.jpg"
 import { NavLink } from 'react-router-dom';
 
@@ -186,7 +184,7 @@ export const Portfoilo = () => {
                   </article>
                 </div>
                 <div className='video-middle'>
-                <p>{review.Des}</p>
+                <textarea>{review.Des}</textarea>
                 </div>
                 <div className='video-downup'>
                     

@@ -72,6 +72,10 @@
     color: #fff;
 }
 
+.GET-QUOTE:hover {
+    background-color: #f4ba48;
+}
+
 .GET-QUOTE :hover{
      border: none;
     background-color:#f4ba48;
@@ -120,9 +124,13 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .top-headerwrapper{
         height: 100%;
-        width: 97%; 
+        width: 100%; 
 
     } 
+
+    .top-header{
+     display: none;
+    }
 }
 
 

@@ -17,8 +17,7 @@ export const Achivment = () => {
             <main className='Achivment-background'></main>
             <div className='Achivment-backgroundposition'>
                 <div className='Achivment-title'>
-                    <h2>About Something What We
-                        <br />Done Since 2010</h2>
+                    <h2>CORE VALUES</h2>
                 </div>
                 <div className='Achivment-text'>
                     <p>
@@ -59,7 +58,7 @@ export const Achivment = () => {
                 </div>
                 <div className='Service-titletext'>
                     <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page <br />when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal<br /> distribution of letters,
+                    Rayjay Multinational Company Limited is dedicated to becoming a global leader in services. We prioritize excellence by employing top-notch equipment and a highly trained crew. With local technical support, we ensure minimal downtime and conduct routine maintenance.
 
                     </p></div>
             </header>

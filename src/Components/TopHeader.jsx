@@ -1,6 +1,7 @@
 import Logo from "../../src/assets/Logo.png"
 import {BsFillTelephoneFill}  from "react-icons/bs"
 import { MdEmail}  from "react-icons/md"
+import { NavLink } from "react-router-dom"
 
 
 const TopHeader = () => {
@@ -14,11 +15,11 @@ const TopHeader = () => {
       <div className="top-companycontact">
         <span>
           <BsFillTelephoneFill/>
-          <p>+2347012315432</p>
+          <p> +2348038838256 Or +234038838256</p>
         </span>
         <span>
         <MdEmail/>
-          <p>+2347012315432</p>
+          <p>info@RMCltd.com</p>
         </span>
 
         <button className="GET-QUOTE"> GET A QUOTE</button>

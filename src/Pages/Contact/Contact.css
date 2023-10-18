@@ -6,7 +6,7 @@
 .Contact-background {
     height: 50vh;
     width: 100%;
-    background: url(../../assets/aboutimage.avif);
+    background: url(../../assets/breadcrumb-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     object-fit: contain;
@@ -93,7 +93,6 @@
 .location {
     height: 100%;
     width: 49%;
-    background-color: #827d73;
     font-size: 42px;
 }
 
@@ -104,6 +103,14 @@
 
 .from-title h1 {
     font-size: 32px;
+
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
 
 }
 
@@ -126,7 +133,8 @@
     border-bottom: 1px solid gary;
     text-align: start;
     padding-left: 15px;
-    border-bottom: 2px solid gray;
+    background-color: #fff;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.337);
     border-left: 2px solid rgb(250, 249, 249);
     border-top: 2px solid rgb(250, 249, 249);
     border-right: 2px solid rgb(250, 249, 249);
@@ -141,22 +149,12 @@
 
 }
 
-.formSendbtn{
+.formSendbtn {
     height: 20%;
     width: 100%;
     display: flex;
     align-items: center;
-    /* background-color: rgb(15, 128, 228); */
-}
-
-
-.contact-message input {
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    padding-inline: 30px;
-}
+ }
 
 .tbbn {
     height: 55px;
@@ -164,17 +162,55 @@
     background-color: #f4ba48;
     border: none;
     font-size: 16px;
+    color: #fff;
+}
+
+.tbbn:hover {
+    background-color: #4b7cf8;
 }
 
 
 
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .Contact-background {
+        height: 35vh;
+        width: 100%;
+    }
+
+    
+    .address-listingwrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    
+    .address-listingwrapper span {
+        display: block;
+        height: 30%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    
+.address-listing {
+    height: 30vh;
+    width: 100%;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+}
+}
 
 @media (max-width: 767px) {
 
     /* CSS styles for mobile devices */
     .Contact-background {
-        height: 40vh;
+        height: 25vh;
         width: 100%;
     }
 
@@ -210,33 +246,44 @@
     .from {
         height: 60%;
         width: 100%;
-        border-bottom: 1px solid #664a12;
         display: flex;
-        /* justify-content: space-around; */
         flex-direction: column;
         margin-left: 19px;
-        background-color: #f4ba48;
+
     }
 
     .from-title {
         height: 15%;
         width: 100%;
-    } 
+    }
 
     .contactform {
+        height: 40%;
+        width: 100%;
+        justify-content: end;
         display: flex;
         flex-direction: column;
-     background-color: #f4ba48;
-     /* height: 50%; */
+        justify-content: space-between;
+        margin-top: 16px;
+
+    }
+
+    .contactform input {
+        height: 25%;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .formSendbtn {
+        display: flex;
+        justify-content: center;
     }
 
     .location {
         height: 40%;
         width: 100%;
-        background-color: #827d73;
         font-size: 42px;
         margin-left: 19px;
-
     }
 
 }

@@ -1,6 +1,9 @@
 import "./Contact.css"
 
+
+
 const Contact = () => {
+
   return (
     <div className="Contact">
       <div className="Contact-background">
@@ -18,10 +21,10 @@ const Contact = () => {
           </span>
           <span>
             <h1>Phone:</h1>
-            <p>12/30 North cfghjklkjhgfdfghjkjhgf</p>
+            <p>09017764062 Or 08038838256</p> 
           </span><span>
             <h1>Email:</h1>
-            <p>12/30 North cfghjklkjhgfdfghjkjhgf</p>
+            <p>info@RMCltd.com</p>
           </span>
         </div>
       </div>
@@ -39,20 +42,18 @@ const Contact = () => {
               <input type="text" placeholder="Subject" />
             </div>
             <main className="contact-message">
-              <input type="text" placeholder="Message" />
+              <textarea type="text" placeholder="Message" />
             </main>
             <div className="formSendbtn">
             <button className="tbbn"> Send Now</button>
             </div>
           </main>
-          <main className="location">
-
+          <main className="location" id="map">
+            <iframe style={{height:'100%', width:'100%', borderRadius:'8px'}} id="gmap_canvas" src="https://maps.google.com/maps?q=Ajeromi%20ifelodun&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
           </main>
         </div>
       </main>
-      {/* <div className="contactpost">
-      </div> */}
-    </div>
+        </div>
   )
 }
 
