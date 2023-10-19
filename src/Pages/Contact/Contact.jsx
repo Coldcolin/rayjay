@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
           </main>
           <main className="location" id="map">
-            <iframe style={{height:'100%', width:'100%', borderRadius:'8px'}} id="gmap_canvas" src="https://maps.google.com/maps?q=Ajeromi%20ifelodun&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+            <iframe style={{height:'100%', width:'100%'}} id="gmap_canvas" src="https://maps.google.com/maps?q=Ajeromi%20ifelodun&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
           </main>
         </div>
       </main>
